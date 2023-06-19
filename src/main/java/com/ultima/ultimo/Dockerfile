@@ -4,6 +4,6 @@
 
 FROM amazoncorrecto:8-alphine-jdk
 
-copy C:/Users/user/Desktop/Back/ultimo/target/ultimo-0.0.1-SNAPSHOT app.jar
+copy target/ultimo-0.0.1-SNAPSHOT app.jar
 
 ENTRYPOINT ["java","-jar","/app.jar"]
